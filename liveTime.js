@@ -18,6 +18,8 @@
                 };
 
                 $this.text(dateToDisplay);
+
+                console.log(dateToDisplay);
             }, opts.intervall);
         });
 
